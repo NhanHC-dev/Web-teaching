@@ -1,0 +1,30 @@
+#list_post{
+    border: solid 1px #ddd;
+    width: 600px;
+    margin: 0px auto;
+}
+.post{
+    border: solid 1px #ddd;
+    margin: 10px 20px;
+    overflow: hidden;
+}
+.post .thumb{
+    float:left;
+    width: 200px;
+}
+.post .thumb img{
+    max-width: 100%;
+    display: inherit;
+}
+.post .infor{
+    margin-left: 220px;
+}
+.post .infor h3{
+    margin: 15px 0px 20px 0px;
+}
+.post .infor h3 a{
+    font-size: 18px;
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+}

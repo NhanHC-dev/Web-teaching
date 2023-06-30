@@ -1,0 +1,17 @@
+table td{
+    padding: 5px 10px;
+}
+input, textarea, select{
+    border: solid 1px #ddd;
+    padding: 5px 20px;
+    width: 100%;
+}
+select{
+    width: 180px;
+}
+input[type="submit"]{
+    width: auto;
+    background: red;
+    color:#fff;
+
+}

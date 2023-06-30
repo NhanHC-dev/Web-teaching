@@ -1,0 +1,14 @@
+table, th, tr,td{
+    background-color: #ffff99;
+    border: 2px dotted black;
+}
+.text{
+    
+    padding-top: 0px;
+    color: #c70000;
+}
+.tag{
+    vertical-align: top;
+    color: blue; 
+    font-size: 27px;
+}
