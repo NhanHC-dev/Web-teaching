@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #fff;
+    display: block;
+    font-family: system-ui;
+    padding-left: 8px;
+    padding-right: 8px;
+    line-height: 1.6;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#main {
+    background-color: #eee;
+}
+
+#title {
+    margin-top: 30px;
+}
+
+#title .title {
+    font-size: 40px;
+    color: #333;
+    font-family: system-ui;
+    padding-top: 27px;
+}
+
+#title .content-title {
+    color: #333;
+    padding: 16px;
+}
+
+#main #img-div {
+    background-color: #fff;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    max-width: 97%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#main #image {
+    max-width: 70%;
+}
+
+#main #img-caption {
+    margin: 15px 0 5px 0;
+    font-family: system-ui;
+}
+
+#main .content {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+}
+
+#headline {
+    text-align: center;
+    font-size: 20px;
+    color: #333;
+    margin: 50px 0;
+    font-family: system-ui;
+}
+
+#main > #tribute-info > .content >li {
+    margin: 16px 0;
+    font-size: 16px;
+    font-family: system-ui;
+}
+
+#main .blockquote {
+    max-width: 550px;
+    min-height: 112px;
+    text-align: left;
+    margin: 0px auto 50px auto;
+    font-style: italic;
+    font-size: 16px;
+    font-family: system-ui;
+}
+
+#main .blockquote p{
+    margin: 16px -22px;
+}
+
+#link {
+    width: 100%;
+    margin: 19px 0;
+    padding-bottom: 32px;
+    text-align: center;
+}
+
+#link-wiki {
+    color: #3241da;
+}
