@@ -1,0 +1,97 @@
+.container{
+    margin: 0 auto;
+    width: 980px;
+}
+header{
+    background-color: #f95512;
+    height: 100px;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    left: 25px;
+    top: 15px;
+}
+.timkiem{
+    position: absolute;
+    right: 5px;
+    top: 45px;
+}
+button{
+    background-color: #272f54;
+    color: white;
+}
+input{
+    width: 200px;
+}
+nav{
+    margin-top: -16px;
+    background-color: #ffbb6b;
+    height: 37px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+nav>ul>li{
+    margin-top: 9px;
+    margin-right: 45px;
+}
+nav>ul>li>a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+nav>ul>li>a:hover{
+    text-decoration: underline;
+}
+.banner img{
+    width: 100%;
+    margin-top: 9px;
+}
+.temp{
+    height: 73px;
+    line-height: 75px;
+    font-weight: bold;
+    font-size: 15pt;
+}
+.template{
+    display: flex;
+    justify-content: space-between;
+}
+.temp1{
+    width: 307px;
+    border: 1px #f95512 solid;
+}
+.content{
+    margin: 25px;
+}
+.temp2{
+    width: 639px;
+
+    display: flex;
+    flex-direction: column;
+}
+.content2{
+    border: 1px #f95512 solid;
+}
+.content3{
+    display: flex;
+    margin: 25px;
+}
+.mota{
+    margin-left: 30px;
+}
+h4{
+    color: #ad3f00;
+}
+footer{
+    margin-top: 55px;
+    height: 100px;
+    background-color: #f95512;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+

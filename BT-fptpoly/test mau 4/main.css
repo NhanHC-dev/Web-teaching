@@ -1,0 +1,85 @@
+.container{
+    width: 980px;
+    margin: 0 auto;
+}
+header{
+    background-color: #f95512;
+    height: 100px;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    left: 25px;
+    bottom: 20px;
+}
+.bar{
+    position: absolute;
+    right: 5px;
+    top: 40px;
+}
+button{
+    background-color: #272f54;
+    color: white;
+}
+input{
+    width: 300px;
+}
+nav{
+    margin-top: -16px;
+    background-color: #272f54;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+nav>ul>li{
+    margin-right: 20px;
+}
+nav>ul>li>a{
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+nav>ul>li>a:hover{
+    background-color: #f95512;
+}
+.banner{
+    margin-top: 10px;
+}
+.trend{
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bolder;
+    color: #f95512;
+    font-size: 16pt;
+}
+.trend1{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 308px;
+    border: 1px #f95512 solid;
+}
+.content{
+    margin: 25px;
+}
+h3{
+    text-align: center;
+    color: #f95512;
+}
+p{
+    text-align: left;
+}
+footer{
+    margin-top: 85px;
+    height: 50px;
+    background-color: #f95512;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+
